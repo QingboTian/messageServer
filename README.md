@@ -15,6 +15,15 @@
 2. sql.properties：jdbcUrl=数据库连接url；driverClass=com.mysql.jdbc.Driver；user=用户；pwd=密码
 3. weather_config.properties：query_uri=http\://apis.juhe.cn/simpleWeather/query ；city=城市；key=用户接口key（接口不同，key不同）
 
+表结构：
+CREATE TABLE `class` (
+  `id` int(11) NOT NULL,
+  `dayof_week` int(11) NOT NULL,
+  `timeofday` varchar(20) NOT NULL,
+  `classname` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
 效果图：
 ![](http://132.232.203.84/group1/M00/00/00/rBsADFzCpT6AAd5FAAJYZrsRlVk432_big.png)
 ![](http://132.232.203.84/group1/M00/00/00/rBsADFzCpUWANzphAAJyyFyfTcg307_big.png)
