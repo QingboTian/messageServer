@@ -14,3 +14,7 @@
 1. msg_config.properties：mobile=发送短信的手机；tpl_id=短信模板的id；url=http\://v.juhe.cn/sms/send 短信API；key=用户接口key
 2. sql.properties：jdbcUrl=数据库连接url；driverClass=com.mysql.jdbc.Driver；user=用户；pwd=密码
 3. weather_config.properties：query_uri=http\://apis.juhe.cn/simpleWeather/query ；city=城市；key=用户接口key（接口不同，key不同）
+
+效果图：
+![](http://132.232.203.84/group1/M00/00/00/rBsADFzCpT6AAd5FAAJYZrsRlVk432_big.png)
+![](http://132.232.203.84/group1/M00/00/00/rBsADFzCpUWANzphAAJyyFyfTcg307_big.png)
