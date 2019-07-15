@@ -16,6 +16,7 @@
 3. weather_config.properties：query_uri=http\://apis.juhe.cn/simpleWeather/query ；city=城市；key=用户接口key（接口不同，key不同）
 
 表结构：
+
   CREATE TABLE `class` (
     `id` int(11) NOT NULL,
     `dayof_week` int(11) NOT NULL,
